@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.cnadmin.yibiaopan.MainActivity">
+
+    <com.example.cnadmin.yibiaopan.DashboardView
+        android:id="@+id/dashboard_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bigSliceCount="12"
+        app:headerRadius="50dp"
+        app:headerTitle="km/h"
+        app:maxValue="240"
+        app:measureTextSize="10sp"
+        app:radius="110dp"
+        app:realTimeValue="80"
+        app:startAngle="170"
+        app:stripeMode="inner"
+        app:stripeWidth="40dp"
+        app:sweepAngle="200"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>
